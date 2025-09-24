@@ -1,2 +1,7 @@
 # StudentRecordManagementSystem
 The Student Record Management System is a Java-based CLI project that performs CRUD operations using ArrayList. It allows users to add, view, update, delete, and search student records. With a menu-driven interface and Student class structure, it demonstrates OOP concepts and efficient data handling.
+The Student class forms the main part of the project and contains information about the student ID, name, and marks. These attributes constitute important information to know about a student and exist within the class as a means of encapsulating and ensuring the data is abstracted and modularity. The records are stored in an ArrayList to enable dynamic storage, access, and manipulation of student records. An ArrayList is chosen for its flexibility, as a user could increase or decrease the records needed.
+
+This is a menu-driven system; users will see options as numbers for the intended actions. For instance, the user will select 1 and the system will ask for the ID, name, and marks of the new student to be added. For action 2, the system will display all records of previous students. The update function allows users to update a specific student's record. The delete function allows the user to remove a student's record as needed. The search function allows a user to simply enter a student ID and receive the previous students record; better for usability.
+
+From a technical standpoint, it displays features of Java collections, classes, objects, encapsulation, and control structures.  It was developed in vs.code.
